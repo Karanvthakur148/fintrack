@@ -1,0 +1,43 @@
+
+name: fintrack
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_bloc: ^9.1.0
+  equatable: ^2.0.7
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  get_it: ^8.0.0
+  fl_chart: ^1.0.0
+  intl: ^0.20.2
+  uuid: ^4.5.1
+  shared_preferences: ^2.5.0
+  cupertino_icons: ^1.0.8
+
+  firebase_core: any
+  firebase_auth: any
+  cloud_firestore: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  bloc_test: ^10.0.0
+  mocktail: ^1.0.4
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Add your assets here if required.
+  # assets:
+  #   - assets/images/
